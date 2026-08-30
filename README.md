@@ -4,15 +4,15 @@ Inlämningsuppgift 2 i kursen *Introduktion till .NET*.
 
 ## Vattenfall och agil metodik
 
-<!-- Skriv ditt eget svar här. -->
+Svar:
 
 ## Git-commits
 
-<!-- Skriv ditt eget svar här. -->
+Svar:
 
 ## Samarbete med GitHub
 
-<!-- Skriv ditt eget svar här. -->
+Svar:
 
 ## Arbetsflöde
 
