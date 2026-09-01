@@ -4,7 +4,16 @@ Inlämningsuppgift 2 i kursen *Introduktion till .NET*.
 
 ## Vattenfall och agil metodik
 
-Svar:
+Vattenfall är en utvecklingsmodell där man planerar ett projekt i sin helhet och arbetar enligt en planerad följd.
+I ett agilt arbetssätt arbetar teamet istället med korta iterationer där enskilda funktioner och ändringar presenteras för användarna med oftare.
+
+Vattenfallsmetodiken lämpar sig för projekt där det finns en tydlig, fast kravbild som inte väntas förändras under projektets gång. Agila arbetssätt lämpar sig bra när kravbilden inte är lika tydlig och man förväntar sig att behöva ändra riktning efter återkoppling från användare.
+
+Vi kan förställa oss att projekt A gäller ett lagersystem som ska migrera orderdata enligt fasta, dokumenterade regler och kraven förväntas inte förändras. Här är vattenfallsmodellen ett bra och effektivt alternativ eftersom tydliga krav gör planering, dokumentation och ordningsföljd mer förutsägbara.
+
+Projekt B är å andra sidan en Instagram-liknande applikation där det är oklart vilka nya funktioner som användarna vill ha. Här är det bättre med ett agilt arbetssätt eftersom varje implementerad funktion kan presenteras för användare så att teamet kan samla återkoppling och anpassa nästa iteration.
+
+Det kan dock hända att betydande krav tillkommer sent, även i projekt A. Då är vattenfallsteamet vanligen mindre flexibelt än det agila eftersom utvecklingsmodellen inte är utformad för sena kravändringar. Det kan medföra omarbete och höga kostnader. Det agila teamet i projekt B kan också möta risker, till exempel om de saknar ett tydligt övergripande mål och återkopplingen tvingar dem till ständiga omprioriteringar. Risken är att kostnaderna stiger, att de levererar en undermålig slutprodukt eller att slutleveransen uteblir helt.
 
 ## Git-commits
 
