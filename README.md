@@ -17,7 +17,9 @@ Det kan dock hända att betydande krav tillkommer sent, även i projekt A. Då �
 
 ## Git-commits
 
-Svar:
+En commit är en ögonblicksbild av det stageade innehållet i din projektmapp, som sparats i versionshistoriken.`git add` placerar den aktuella versionen av innehållet i staging area och väljer vad som ska ingå i nästa commit. `git commit` skapar och registrerar ögonblicksbilden av det stageade innehållet i den lokala historiken. Commit skiljer sig från en vanlig filsparning genom att ändringen även sparas i versionshistoriken medan en ändring i en sparad fil endast är tillgänglig i arbetsmappen. En push laddar även upp nya lokala commits till repositoryt på GitHub och uppdaterar den aktuella branchen.
+
+Commits är viktiga för att kunna spåra ändringar och gå tillbaka i versionshistoriken om man stöter på problem under projektet. Exempel: vid ett tillfälle i utvecklingen av en specifik funktion kraschar programmet. Teamet kan granska versionshistoriken och identifiera efter vilken commit som kraschen uppstod. Identifieringen underlättas av tydligt avgränsade commits och beskrivande meddelanden. Därefter kan de granska koden och lösa problemet.
 
 ## Samarbete med GitHub
 
