@@ -23,9 +23,8 @@ Commits är viktiga för att kunna spåra ändringar och gå tillbaka i versions
 
 ## Samarbete med GitHub
 
-Svar:
+Samarbete med GitHub innebär att flera utvecklare kan arbeta med samma projekt utan att deras pågående ändringar direkt påverkar huvudversionen. Utvecklaren hämtar den senaste versionen av projektet med git pull och skapar sedan en ny branch från main. Separata branches används för att hålla main ren och funktionell medan nya funktioner och andra ändringar utvecklas.
 
-## Arbetsflöde
+När ändringen är färdig stagear och committar utvecklaren arbetet och pushar sina commits till GitHub. Därefter öppnas en pull request. Där kan teamet granska och testa ändringen innan de avgör om den ska godkännas och mergas. Detta minskar risken för att felaktig eller ofärdig kod integreras i huvudprojektet.
 
-Varje fråga har behandlats på en separat branch och slagits ihop med
-`main` genom en pull request.
+En merge innebär att de godkända ändringarna från den separata branchen integreras i main. Efter merge kan utvecklarna byta till sin lokala main och köra git pull för att hämta den senaste versionen av projektet.
